@@ -1,0 +1,89 @@
+{
+  "name": "quick-tech-rent",
+  "version": "1.0.0",
+  "description": "A comprehensive laptop rental platform built with ReactJS",
+  "private": true,
+  "dependencies": {
+    "@supabase/supabase-js": "^2.75.0",
+    "@testing-library/jest-dom": "^5.16.4",
+    "@testing-library/react": "^13.4.0",
+    "@testing-library/user-event": "^13.5.0",
+    "axios": "^1.12.2",
+    "bootstrap": "^5.3.8",
+    "date-fns": "^2.30.0",
+    "lucide-react": "^0.147.0",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "react-hook-form": "^7.65.0",
+    "react-icons": "^4.12.0",
+    "react-router-dom": "^6.30.1",
+    "react-scripts": "5.0.1",
+    "react-toastify": "^9.1.3",
+    "web-vitals": "^2.1.4"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject",
+    "lint": "eslint src/**/*.{js,jsx}",
+    "lint:fix": "eslint src/**/*.{js,jsx} --fix"
+  },
+  "eslintConfig": {
+    "extends": [
+      "react-app",
+      "react-app/jest"
+    ],
+    "rules": {
+      "no-unused-vars": "warn",
+      "react/prop-types": "off"
+    }
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  },
+  "devDependencies": {
+    "autoprefixer": "^10.4.21",
+    "eslint": "^8.57.1",
+    "eslint-plugin-react": "^7.37.5",
+    "eslint-plugin-react-hooks": "^4.6.2",
+    "postcss": "^8.5.6",
+    "tailwindcss": "^3.4.18"
+  },
+  "keywords": [
+    "react",
+    "laptop-rental",
+    "ecommerce",
+    "bootstrap",
+    "rental-service",
+    "tech-rental",
+    "device-rental"
+  ],
+  "author": {
+    "name": "Quick Tech Rent Team",
+    "email": "dev@quicktechrent.com",
+    "url": "https://quicktechrent.com"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/quicktechrent/quick-tech-rent.git"
+  },
+  "bugs": {
+    "url": "https://github.com/quicktechrent/quick-tech-rent/issues"
+  },
+  "homepage": "https://quicktechrent.com",
+  "license": "MIT",
+  "engines": {
+    "node": ">=16.0.0",
+    "npm": ">=8.0.0"
+  }
+}
